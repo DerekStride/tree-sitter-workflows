@@ -108,5 +108,3 @@ jobs:
         run: ls -l dist
       - name: Publish to PyPI
         uses: pypa/gh-action-pypi-publish@release/v1.8
-        with:
-          password: ${{secrets.PYPI_API_TOKEN}}
